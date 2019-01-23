@@ -1,14 +1,12 @@
 import React, { Component } from "react";
-
+import Draw from "./Draw";
 class App extends Component {
-  state = {};
-
-  constructor(props) {
-    super(props);
-  }
-
   render() {
-    return <React.Fragment />;
+    return (
+      <React.Fragment>
+        <Draw />
+      </React.Fragment>
+    );
   }
 }
 
